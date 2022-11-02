@@ -57,6 +57,7 @@ public interface UnsafeSelenideElement {
      * Returns UnsafeSelenideElement of given SelenideElement.
      *
      * @param element the {@link SelenideElement} instantiated as a {@link Proxy}
+     * @return UnsafeSelenideElement of given SelenideElement
      * @throws NullPointerException     if {@code element} is {@code null}
      * @throws IllegalArgumentException if {@code element} is not the {@link SelenideElement} instantiated
      *                                  as a {@link Proxy}
