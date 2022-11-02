@@ -61,6 +61,10 @@ UnsafeSelenideElement.of(element).invoke("append", "text to append", Duration.of
 
 ### OuterCommand
 
+Represents `Command` that can be executed on an `SelenideElement`. You can use
+`OuterCommand.of(String, Object[])` and `OuterCommand.of(Command, Object[])` methods or
+`OuterCommandOf(String, Object[])` and `OuterCommandOf(Command, Object[])` constructor.
+
 ```java
 SelenideElement element = driver.$(".class_name");
 
